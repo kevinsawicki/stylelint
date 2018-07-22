@@ -23,7 +23,7 @@ For example:
 // the thing  what the rule is checking
 ```
 
-There is no first part then the rule applies to the whole stylesheet.
+There is no first part when the rule applies to the whole stylesheet.
 
 For example:
 

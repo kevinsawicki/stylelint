@@ -70,9 +70,9 @@ stylelint "foo/**/*.css" --syntax scss
 
 In addition to `--syntax scss`, stylelint supports `--syntax sass`, `--syntax less`, and `--syntax sugarss` by default. If you're using one of the default syntaxes, you may not need to provide a `--syntax` option as non-standard syntaxes can be automatically inferred from the following:
 
-- The following file extensions: `.sass`, `.scss`, `.less`, and `.sss`.
-- The following values for the `lang` or `type` attribute on `<style>` tags (e.g. `lang="scss"`, `type="text/scss"`): `scss`, `less` and `sugarss`.
-- The following Markdown code fencing markers (e.g. ` ```scss `): `scss`, `less` and `sugarss`.
+-   The following file extensions: `.sass`, `.scss`, `.less`, and `.sss`.
+-   The following values for the `lang` or `type` attribute on `<style>` tags (e.g. `lang="scss"`, `type="text/scss"`): `scss`, `less` and `sugarss`.
+-   The following Markdown code fencing markers (e.g. ```` ```scss ````): `scss`, `less` and `sugarss`.
 
 Additionally, stylelint can accept a custom [PostCSS-compatible syntax](https://github.com/postcss/postcss#syntaxes). To use a custom syntax, supply a syntax module name or path to the syntax file: `--custom-syntax custom-syntax` or `--custom-syntax ./path/to/custom-syntax`.
 
@@ -114,7 +114,7 @@ The error name is `CssSyntaxError`.
 
 The CLI can exit the process with the following exit codes:
 
-- 1: Something unknown went wrong.
-- 2: At least one rule with an "error"-level severity triggered at least one violations.
-- 78: There was some problem with the configuration file.
-- 80: A file glob was passed, but it found no files.
+-   1: Something unknown went wrong.
+-   2: At least one rule with an "error"-level severity triggered at least one violations.
+-   78: There was some problem with the configuration file.
+-   80: A file glob was passed, but it found no files.

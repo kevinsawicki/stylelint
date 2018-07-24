@@ -19,8 +19,8 @@ We follow [semantic versioning](http://semver.org). However, due to the nature o
     -   a new formatter is created
 
 -   major release (likely to break your lint build)
-    -   a change in the documented behaviour of an existing rule results in stylelint reporting more errors by default
+    -   a change in the documented behaviour of an existing rule that results in stylelint reporting more errors by default
     -   an existing rule is removed
     -   an existing formatter is removed
-    -   part of the a CLI is removed or changed in an incompatible way
+    -   part of the CLI is removed or changed in an incompatible way
     -   part of the public API is removed or changed in an incompatible way
